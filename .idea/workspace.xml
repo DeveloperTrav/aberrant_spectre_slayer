@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b20f40-1b72-444b-bb6b-8dee0e0a16dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/aberrant_spectre_slayer_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aberrant_spectre_slayer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aberrant_spectre_slayer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Areas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Areas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/nodes/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Attack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/nodes/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/nodes/Eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Eat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/nodes/Pickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Pickup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/nodes/Traverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Traverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
       <workItem from="1577730463947" duration="6676000" />
       <workItem from="1577906326328" duration="3729000" />
       <workItem from="1578012864634" duration="7491000" />
-      <workItem from="1578067159433" duration="1687000" />
+      <workItem from="1578067159433" duration="2700000" />
     </task>
     <servers />
   </component>

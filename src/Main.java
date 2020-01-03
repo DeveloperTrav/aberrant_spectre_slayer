@@ -70,5 +70,6 @@ public class Main extends TaskScript {
 
     public void onPaint(Graphics2D g) {
         g.drawString("Status: " + API.status, 10 , 30);
+//        g.drawString("RunTime: " + Timer.formatTime(this.timer.elapsed()), 10, 45);
     }
 }
