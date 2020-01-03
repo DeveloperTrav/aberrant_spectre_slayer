@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b20f40-1b72-444b-bb6b-8dee0e0a16dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/nodes/Attack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/nodes/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/nodes/Pickup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/nodes/Traverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Areas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Areas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/nodes/Eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/nodes/Eat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +66,7 @@
       <updated>1577730460031</updated>
       <workItem from="1577730463947" duration="6676000" />
       <workItem from="1577906326328" duration="3729000" />
-      <workItem from="1578012864634" duration="2477000" />
+      <workItem from="1578012864634" duration="4264000" />
     </task>
     <servers />
   </component>
@@ -69,10 +74,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1578015461119">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1578029348200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578015461119" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578029348200" />
     <state x="666" y="261" key="FileChooserDialogImpl" timestamp="1577730864955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

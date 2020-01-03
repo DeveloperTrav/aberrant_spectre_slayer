@@ -27,7 +27,7 @@ public class Eat extends TaskNode {
         return API.sleep();
     }
 
-    public boolean canEat() {
+    private boolean canEat() {
         return getInventory().contains("Lobster") && getSkills().getBoostedLevels(Skill.HITPOINTS) < Calculations.random(40, 60);
     }
 }

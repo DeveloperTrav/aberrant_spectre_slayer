@@ -13,4 +13,5 @@ public class API {
     }
 
     public static int sleep() { return Calculations.random(400, 150); }
+    public static boolean inBankArea() { return Areas.bank.contains(context.getLocalPlayer()); }
 }
