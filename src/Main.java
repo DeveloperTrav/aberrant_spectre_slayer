@@ -1,11 +1,18 @@
+import core.API;
 import org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder;
 import org.dreambot.api.methods.walking.web.node.AbstractWebNode;
 import org.dreambot.api.methods.walking.web.node.impl.BasicWebNode;
+import org.dreambot.api.script.Category;
+import org.dreambot.api.script.ScriptManifest;
 import org.dreambot.api.script.impl.TaskScript;
 
 import java.awt.*;
+import java.util.Timer;
 
+@ScriptManifest(category = Category.COMBAT, name = "Aberrant Spectre Slayer", description = "Kills aberrant spectres in slayer cave", author = "NotJohn", version = 1.0)
 public class Main extends TaskScript {
+    private Timer timer = new Timer();
+    private API api = new API(this);
 
     public void onStart() {
 
