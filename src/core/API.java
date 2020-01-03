@@ -6,7 +6,7 @@ import org.dreambot.api.methods.MethodContext;
 public class API {
 
     private static MethodContext context;
-    private static String status = "Script starting...";
+    public static String status = "Script starting...";
 
     public API(MethodContext context) {
         API.context = context;
