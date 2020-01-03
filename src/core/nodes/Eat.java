@@ -9,7 +9,13 @@ import org.dreambot.api.script.TaskNode;
 public class Eat extends TaskNode {
 
     @Override
+    public int priority() {
+        return 5;
+    }
+
+    @Override
     public boolean accept() {
+        log("EAT: " + canEat());
         return canEat();
     }
 

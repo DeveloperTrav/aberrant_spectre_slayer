@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="aberrant_spectre_slayer:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="aberrant_spectre_slayer.jar">
+      <element id="module-output" name="aberrant_spectre_slayer" />
+    </root>
+  </artifact>
+</component>

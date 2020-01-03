@@ -1,4 +1,5 @@
 import core.API;
+import core.nodes.*;
 import org.dreambot.api.methods.walking.pathfinding.impl.web.WebFinder;
 import org.dreambot.api.methods.walking.web.node.AbstractWebNode;
 import org.dreambot.api.methods.walking.web.node.impl.BasicWebNode;
@@ -15,6 +16,11 @@ public class Main extends TaskScript {
     private API api = new API(this);
 
     public void onStart() {
+        addNodes(new Attack());
+        addNodes(new Bank());
+        addNodes(new Eat());
+        addNodes(new Pickup());
+        addNodes(new Traverse());
 
         BasicWebNode bwn1 = new BasicWebNode(2426, 9824);
         BasicWebNode bwn2 = new BasicWebNode(2424, 9817);
@@ -63,6 +69,6 @@ public class Main extends TaskScript {
     }
 
     public void onPaint(Graphics2D g) {
-
+        g.drawString("Status: " + API.status, 10 , 30);
     }
 }
